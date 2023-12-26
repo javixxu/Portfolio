@@ -74,19 +74,20 @@ footer#indexFooter{
 h3#tilteAboutMe{
     font-family: "Rough_Battle";
     font-size: 150%;
-    padding-left: 2.5%;
+    padding-left: 5%;
     color: #9E8CFF;
 }
 
 p#indexDescription{
-    color:#ffbbf0;
+    color:#fee3ff;
     font-size: 18px;
-    padding-left: 2.5%;    
+    padding-left: 5%;    
 }
 
 blockquote#quoteIndex{
+    padding-left: 5%;    
     font-family: "Mouly";
-    color:  #ec8cff;
+    color:  #9E8CFF;
 }
 
 .containerIndex {
@@ -112,6 +113,31 @@ blockquote#quoteIndex{
     width: 12.5%;
 }
 
+#ImageYo img {
+    margin-left: 10%;
+    width: 100%;
+    height: auto;
+    border: 3px solid #8a2be2;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.mySection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#div2 {
+    flex: 3;
+}
 
 /*Navigation*/
 .myNavIndex{
@@ -345,10 +371,11 @@ div#images{
     flex-direction: column;
 }
 
-.table-skills{
+.table-skills {
     width: 60%;
     table-layout: fixed;
     margin-right: 7.5%;
+    border-collapse: collapse; /* Para juntar los bordes de las celdas */
 }
 
 .table-skills tr{
@@ -356,16 +383,15 @@ div#images{
     padding: .4em;
 }
 
-.table-skills td{
+.table-skills td {
     font-family: 'Tilt Neon';
     font-size: 20px;
     color: #ff8400;
     text-shadow: 0 0 5px rgba(255, 226, 162, 0.8),
-    0 0 15px rgba(255, 226, 162, 0.8),
-    0 0 35px #f8972f,
-    0 0 45px #f8972f;
+                0 0 15px rgba(255, 226, 162, 0.8),
+                0 0 35px #f8972f;
     text-align: center;
-    width: 50%;   
+    width: 50%;
 }
 
 .table-skills td img{
@@ -382,7 +408,7 @@ div#images{
     font-family:"Mouly";
     color: rgb(255, 247, 0);
     text-shadow: 0 0 5px rgba(241, 255, 162, 0.8),
-    0 0 35px #f8eb2f;
+    0 0 15px #f8eb2f;
     font-size: 22px;
 }
 
