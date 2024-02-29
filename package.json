@@ -25,6 +25,7 @@
   "scripts": {
     "start": "npm-run-all -p watch:server watch:react",
     "watch:server": "nodemon server.js",
+    "watch:react": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",

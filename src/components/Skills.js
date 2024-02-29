@@ -101,14 +101,27 @@ export const Skills = () =>{
                         </p>
                             
                         {!showAllSkills && (
-                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                            {skills.map((skill, index) => (
-                            <div key={index} className="item">
-                                <img src={skill.img} alt="img" />
-                                <h5>{skill.name}</h5>
+                            <div>
+                                <h5>Lenguajes</h5>
+                                <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                                {skills.map((skill, index) => (
+                                <div key={index} className="item">
+                                    <img src={skill.img} alt="img" />
+                                    <h5>{skill.name}</h5>
+                                </div>
+                                ))}
+                                </Carousel>
+                                <h5>Lenguajes</h5>
+                                <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                                {skills.map((skill, index) => (
+                                <div key={index} className="item">
+                                    <img src={skill.img} alt="img" />
+                                    <h5>{skill.name}</h5>
+                                </div>
+                                ))}
+                                </Carousel>   
                             </div>
-                            ))}
-                        </Carousel>
+                           
                         )}
                         {showAllSkills && (
                         <div className="skill-list">
