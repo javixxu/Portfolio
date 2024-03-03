@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9d8766f6.css",
-    "main.js": "/Portfolio/static/js/main.4f1e6c69.js",
+    "main.css": "/Portfolio/static/css/main.9a482501.css",
+    "main.js": "/Portfolio/static/js/main.e95c3730.js",
     "static/js/787.2dcca737.chunk.js": "/Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/color-sharp.jpg": "/Portfolio/static/media/color-sharp.1fdecc6909b7cd8e578d.jpg",
     "static/media/OIG.svg": "/Portfolio/static/media/OIG.d3d59ccc53a87750e30a5e55eeaca32d.svg",
     "static/media/banner-bg.jpg": "/Portfolio/static/media/banner-bg.ce01d443e42c52d030af.jpg",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.d492ed916f4f90912177.pdf",
     "static/media/logo.svg": "/Portfolio/static/media/logo.3a512ea2b6dfa5fc3bfae7a2ac65bd16.svg",
+    "static/media/ALL.png": "/Portfolio/static/media/ALL.21484f4eded405aae469.png",
     "static/media/agrupar-clikeado.svg": "/Portfolio/static/media/agrupar-clikeado.3c3df8775ca5703036a0432af557ab20.svg",
     "static/media/CentraNo2-Bold.ttf": "/Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -24,12 +25,12 @@
     "static/media/meter1.svg": "/Portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.9d8766f6.css.map": "/Portfolio/static/css/main.9d8766f6.css.map",
-    "main.4f1e6c69.js.map": "/Portfolio/static/js/main.4f1e6c69.js.map",
+    "main.9a482501.css.map": "/Portfolio/static/css/main.9a482501.css.map",
+    "main.e95c3730.js.map": "/Portfolio/static/js/main.e95c3730.js.map",
     "787.2dcca737.chunk.js.map": "/Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d8766f6.css",
-    "static/js/main.4f1e6c69.js"
+    "static/css/main.9a482501.css",
+    "static/js/main.e95c3730.js"
   ]
 }
