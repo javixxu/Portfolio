@@ -5,6 +5,7 @@ import React, { useState} from 'react';
 
 import meter1 from "../assets/img/meter1.svg";
 import colorSharp from "../assets/img/color-sharp.jpg"
+import allSkills from "../assets/img/logos/ALL.png"
 
 import agrp_click from '../assets/img/agrupar-clikeado.svg';
 import agrp_no_click from '../assets/img/agrupar-clickear.svg';
@@ -54,16 +55,26 @@ export const Skills = () =>{
         setShowAllImgSrc(dagrp_no_click);
     };
 
+    const creative_skills = [
+        { name: 'PhotoShop', img: meter1 },
+        { name: 'Blender', img: meter1 },
+        { name: 'Premier', img: meter1 },
+        { name: 'Audition', img: meter1 },
+        { name: 'Ableton', img: meter1 },
+        { name: 'React', img: meter1 },
+        { name: 'CSS', img: meter1 },
+    ];
 
-    const skills = [
+    const main_skills = [
         { name: 'Unity', img: meter1 },
         { name: 'Unreal', img: meter1 },
         { name: 'C++', img: meter1 },
         { name: 'C#', img: meter1 },
+        { name: 'AWS', img: meter1 },
         { name: 'JavaScript', img: meter1 },
-        { name: 'React', img: meter1 },
+        { name: 'Lua', img: meter1 },
         { name: 'HTML', img: meter1 },
-        { name: 'CSS', img: meter1 },
+        { name: 'Defold', img: meter1 },
     ];
 
     return (
@@ -102,38 +113,34 @@ export const Skills = () =>{
                             
                         {!showAllSkills && (
                             <div>
-                                <h5>Lenguajes</h5>
+
+                                <h5>Main Skills</h5>
                                 <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                {skills.map((skill, index) => (
+                                {main_skills.map((skill, index) => (
                                 <div key={index} className="item">
                                     <img src={skill.img} alt="img" />
                                     <h5>{skill.name}</h5>
                                 </div>
                                 ))}
                                 </Carousel>
-                                <h5>Lenguajes</h5>
+
+                                <h5>Creative Skills</h5>
                                 <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                {skills.map((skill, index) => (
+                                {creative_skills.map((skill, index) => (
                                 <div key={index} className="item">
                                     <img src={skill.img} alt="img" />
                                     <h5>{skill.name}</h5>
                                 </div>
                                 ))}
-                                </Carousel>   
+                                </Carousel> 
+
                             </div>
                            
                         )}
                         {showAllSkills && (
-                        <div className="skill-list">
-                            <ul>
-                            {skills.map((skill, index) => (
-                                <li key={index}>
-                                <img src={skill.img} alt="img" />
-                                <h5>{skill.name}</h5>
-                                </li>
-                            ))}
-                            </ul>
-                        </div>
+                            <div className="skill-list">
+                                <img src={allSkills} alt="img" id="skill_ALL_img"/>
+                            </div>
                         )}
                     </div>
                     </Col>
