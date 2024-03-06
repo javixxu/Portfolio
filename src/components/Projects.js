@@ -1,6 +1,8 @@
 import { Col, Container, Row, TabContainer, TabContent} from 'react-bootstrap';
 
 import foolishfish from "../assets/img/projects/foolish_fish.png";
+import phonkdrifter from "../assets/img/projects/phonk_drifter.png";
+import monkeyDelivery from "../assets/img/projects/monkeyDelivery.png";
 /*import colorSharp2 from "../assets/img/color-sharp2.png";*/
 
 export const Projects = () =>{
@@ -9,7 +11,17 @@ export const Projects = () =>{
             title: "Foolish Fish",
             description: "hola k tal",
             imgUrl:foolishfish,
-        }
+        },
+        {
+            title: "Phonk Drifter",
+            description: "hola k tal",
+            imgUrl:phonkdrifter,
+        },
+        {
+            title: "Monkey Delivery",
+            description: "hola k tal",
+            imgUrl:monkeyDelivery,
+        },
     ]
 
     return( 

@@ -3,8 +3,24 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import React, { useState} from 'react';
 
-import meter1 from "../assets/img/meter1.svg";
-import colorSharp from "../assets/img/color-sharp.jpg"
+
+// Logos
+import audition from "../assets/img/logos/Adobe-Audition.png";
+import photoshop from "../assets/img/logos/Adobe-Photoshop.png";
+import premiere from "../assets/img/logos/Adobe-Premier.png";
+import aws from "../assets/img/logos/aws.png";
+import ableton from "../assets/img/logos/logo-Ableton.png";
+import blender from "../assets/img/logos/logo-blender.png";
+import c1 from "../assets/img/logos/logo-c++.png";
+import c2 from "../assets/img/logos/logo-c-sharp.png";
+import defold from "../assets/img/logos/logo-defold1.png";
+import html from "../assets/img/logos/logo-HTML.png";
+import javascript from "../assets/img/logos/logo-javascript.png";
+import lua from "../assets/img/logos/logo-Lua.png";
+import react from "../assets/img/logos/logo-React.png";
+import unreal from "../assets/img/logos/logo-unreal.png";
+import unity from "../assets/img/logos/unity.png";
+//Logos
 import allSkills from "../assets/img/logos/ALL.png"
 
 import agrp_click from '../assets/img/agrupar-clikeado.svg';
@@ -56,25 +72,25 @@ export const Skills = () =>{
     };
 
     const creative_skills = [
-        { name: 'PhotoShop', img: meter1 },
-        { name: 'Blender', img: meter1 },
-        { name: 'Premier', img: meter1 },
-        { name: 'Audition', img: meter1 },
-        { name: 'Ableton', img: meter1 },
-        { name: 'React', img: meter1 },
-        { name: 'CSS', img: meter1 },
+        { name: 'PhotoShop', img: photoshop },
+        { name: 'Blender', img: blender },
+        { name: 'Premier', img: premiere },
+        { name: 'Audition', img: audition },
+        { name: 'Ableton', img: ableton },
+        { name: 'React', img: react },
+        { name: 'CSS', img: html },
     ];
 
     const main_skills = [
-        { name: 'Unity', img: meter1 },
-        { name: 'Unreal', img: meter1 },
-        { name: 'C++', img: meter1 },
-        { name: 'C#', img: meter1 },
-        { name: 'AWS', img: meter1 },
-        { name: 'JavaScript', img: meter1 },
-        { name: 'Lua', img: meter1 },
-        { name: 'HTML', img: meter1 },
-        { name: 'Defold', img: meter1 },
+        { name: 'Unity', img: unity },
+        { name: 'C++', img: c1 },
+        { name: 'Unreal', img: unreal },
+        { name: 'AWS', img: aws },
+        { name: 'JavaScript', img: javascript },
+        { name: 'Lua', img: lua },
+        { name: 'HTML', img: html },
+        { name: 'Defold', img: defold },
+        { name: 'C#', img: c2 },
     ];
 
     return (
@@ -124,7 +140,7 @@ export const Skills = () =>{
                                 ))}
                                 </Carousel>
 
-                                <h5>Creative Skills</h5>
+                                <h5><br></br>Creative Skills</h5>
                                 <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 {creative_skills.map((skill, index) => (
                                 <div key={index} className="item">
