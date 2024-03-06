@@ -9,18 +9,28 @@ export const Projects = () =>{
     const projects =[
         {
             title: "Foolish Fish",
-            description: "hola k tal",
+            description: "It is a Foddian Game of vertical platforms, to reach these platforms the player must think how to move with the inertia of the movement to reach them. Winners of the Foddiam Jam [Speed Jam].",
             imgUrl:foolishfish,
         },
         {
             title: "Phonk Drifter",
-            description: "hola k tal",
+            description: "An action game in which the player drives a spaceship dodging obstacles while collecting upgrades and missiles to face the fearsome 'Judge'.",
             imgUrl:phonkdrifter,
         },
         {
             title: "Monkey Delivery",
-            description: "hola k tal",
+            description: "Monkey Delivery is a game in which the player controls a little monkey named Monky who delivers packages to the residents of Todesfall, a town where he has moved to work.",
             imgUrl:monkeyDelivery,
+        },
+        {
+            title: "Procedural Worlds",
+            description: "It is a tool that enables the generation of procedural generation of procedural worlds with a pixelated aesthetic in the style of Minecraft.",
+            imgUrl:foolishfish,
+        },
+        {
+            title: "Melvin Cosmic Scape",
+            description: "It is a puzzle game in which the player will play with Melvin, the protagonist who is a small alien. The player must solve puzzles so that he can escape from the laboratory where he has been locked up and return to his intergalactic world.",
+            imgUrl:foolishfish,
         },
     ]
 
