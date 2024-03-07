@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bf695557.css",
-    "main.js": "/Portfolio/static/js/main.6a7c0bdc.js",
+    "main.js": "/Portfolio/static/js/main.9125841c.js",
     "static/js/787.2dcca737.chunk.js": "/Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/OIG.svg": "/Portfolio/static/media/OIG.2cb46952ac746ab6dbd21a7384cd32b2.svg",
     "static/media/banner-bg.jpg": "/Portfolio/static/media/banner-bg.ce01d443e42c52d030af.jpg",
+    "static/media/contactImg.png": "/Portfolio/static/media/contactImg.1a34b403a457affd4bbc.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.958be2298a6e7a355f8b4b0eceb0b473.svg",
     "static/media/ALL.png": "/Portfolio/static/media/ALL.21484f4eded405aae469.png",
     "static/media/procedural-worlds.png": "/Portfolio/static/media/procedural-worlds.63f78dfda2f84bc69a49.png",
@@ -41,11 +42,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
     "main.bf695557.css.map": "/Portfolio/static/css/main.bf695557.css.map",
-    "main.6a7c0bdc.js.map": "/Portfolio/static/js/main.6a7c0bdc.js.map",
+    "main.9125841c.js.map": "/Portfolio/static/js/main.9125841c.js.map",
     "787.2dcca737.chunk.js.map": "/Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf695557.css",
-    "static/js/main.6a7c0bdc.js"
+    "static/js/main.9125841c.js"
   ]
 }
