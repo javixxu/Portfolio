@@ -28,11 +28,11 @@ export const Projects = () =>{
             description: "It is a tool that enables the generation of procedural generation of procedural worlds with a pixelated aesthetic in the style of Minecraft.",
             imgUrl:proceduralWorlds,
         },
-        {
-            title: "Melvin Cosmic Scape",
-            description: "It is a puzzle game in which the player will play with Melvin, the protagonist who is a small alien. The player must solve puzzles so that he can escape from the laboratory where he has been locked up and return to his intergalactic world.",
-            imgUrl:foolishfish,
-        },
+        //{
+        //    title: "Melvin Cosmic Scape",
+        //    description: "It is a puzzle game in which the player will play with Melvin, the protagonist who is a small alien. The player must solve puzzles so that he can escape from the laboratory where he has been locked up and return to his intergalactic world.",
+        //    imgUrl:foolishfish,
+        //},
     ]
 
     return( 

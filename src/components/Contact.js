@@ -1,7 +1,7 @@
 import { Col, Container, Row} from 'react-bootstrap';
 import { useState } from "react";
 
-/*import contactImg from "../assets/img/contact-img.svg"*/
+import contactImg from '../assets/img/contactImg.png';
 
 export const Contact = () =>{
 
@@ -12,43 +12,42 @@ export const Contact = () =>{
         message: '',
       };
     
-      const [formDetails, setFromDetails] = useState(formInitialDetails);
-      const [buttonText, setButtonText] = useState('Send');
-      const [status, setStatus] = useState({});
+    const [formDetails, setFromDetails] = useState(formInitialDetails);
+    const [buttonText, setButtonText] = useState('Send');
+    const [status, setStatus] = useState({});
     
-      const onFormUpdate = (category, value) => {
-        setFromDetails({
-          ...formDetails,
-          [category]: value,
+    const onFormUpdate = (category, value) => {
+      setFromDetails({
+        ...formDetails,
+        [category]: value,
+      });
+    };
+    
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      setButtonText('Sending..');
+      try {
+        const response = await fetch('https://formspree.io/f/xdoqdevj', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formDetails),
         });
-      };
     
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-        setButtonText('Sending..');
-        try {
-          const response = await fetch('http://localhost:5000', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formDetails),
-          });
-    
-          const result = await response.json();
-          setButtonText('Send');
+        if (response.ok) {
+          setStatus({ success: true, message: 'Message was sent successfully' });
           setFromDetails(formInitialDetails);
-    
-          if (result.code === 200) {
-            setStatus({ success: true, message: 'Message was sent successfully' });
-          } else {
-            setStatus({ success: false, message: 'Something went wrong' });
-          }
-        } catch (error) {
-          console.error('Error sending message:', error);
+        } else {
           setStatus({ success: false, message: 'Something went wrong' });
         }
-      };
+      } catch (error) {
+        console.error('Error sending message:', error);
+        setStatus({ success: false, message: 'Something went wrong' });
+      } finally {
+        setButtonText('Send');
+      }
+    };
 
 
     return(
@@ -56,7 +55,8 @@ export const Contact = () =>{
             <Container>
                 <Row className='align-items-center'>
                     <Col md={6}>
-                        { //<img src={contactImg} alt="Contact Us" />
+                        { 
+                        <img src={contactImg} alt="Contact Us" />
                         }
                     </Col>
                     <Col md={6}>
@@ -76,14 +76,14 @@ export const Contact = () =>{
                                         onChange={(e) => onFormUpdate('lastName',e.target.value)}/>
                                 </Col>
                                 <Col className='px-1'>
-                                    <input type="mail" 
+                                    <input type="email" 
                                         value={formDetails.mail} 
                                         placeholder='Email Address' 
                                         onChange={(e) => onFormUpdate('mail',e.target.value)}/>
                                 </Col>  
                             </Row>
                             <Row>
-                                <textarea row="8" 
+                                <textarea rows="8" 
                                     value={formDetails.message} 
                                     placeholder='Message' 
                                     onChange={(e) => onFormUpdate('message',e.target.value)}
