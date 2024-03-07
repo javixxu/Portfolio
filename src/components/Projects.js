@@ -3,6 +3,7 @@ import { Col, Container, Row, TabContainer, TabContent} from 'react-bootstrap';
 import foolishfish from "../assets/img/projects/foolish_fish.png";
 import phonkdrifter from "../assets/img/projects/phonk_drifter.png";
 import monkeyDelivery from "../assets/img/projects/monkeyDelivery.png";
+import proceduralWorlds from "../assets/img/projects/procedural-worlds.png";
 /*import colorSharp2 from "../assets/img/color-sharp2.png";*/
 
 export const Projects = () =>{
@@ -25,7 +26,7 @@ export const Projects = () =>{
         {
             title: "Procedural Worlds",
             description: "It is a tool that enables the generation of procedural generation of procedural worlds with a pixelated aesthetic in the style of Minecraft.",
-            imgUrl:foolishfish,
+            imgUrl:proceduralWorlds,
         },
         {
             title: "Melvin Cosmic Scape",
