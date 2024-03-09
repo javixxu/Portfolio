@@ -20,7 +20,7 @@ export const Projects = () =>{
         },
         {
             title: "Monkey Delivery",
-            description: "Monkey Delivery is a game in which the player controls a little monkey named Monky who delivers packages to the residents of Todesfall, a town where he has moved to work.",
+            description: "Monkey Delivery is a game 2D in which the player controls a little monkey named Monky who delivers packages to the residents of Todesfall, a town where he has moved to work.",
             imgUrl:monkeyDelivery,
         },
         {
