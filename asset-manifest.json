@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3c22cbdd.css",
-    "main.js": "/Portfolio/static/js/main.df343265.js",
+    "main.css": "/Portfolio/static/css/main.70e90db2.css",
+    "main.js": "/Portfolio/static/js/main.53137cf6.js",
     "static/js/787.2dcca737.chunk.js": "/Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/OIG.svg": "/Portfolio/static/media/OIG.2cb46952ac746ab6dbd21a7384cd32b2.svg",
     "static/media/banner-bg.jpg": "/Portfolio/static/media/banner-bg.ce01d443e42c52d030af.jpg",
@@ -24,6 +24,7 @@
     "static/media/agrupar-clickear.svg": "/Portfolio/static/media/agrupar-clickear.acf26b233081a60f64c3c01ed5b37dc9.svg",
     "static/media/logo-Ableton.png": "/Portfolio/static/media/logo-Ableton.a052a4879df884474be4.png",
     "static/media/phonk_drifter.png": "/Portfolio/static/media/phonk_drifter.baabc0be39ec41663641.png",
+    "static/media/teoriadelcaos.png": "/Portfolio/static/media/teoriadelcaos.e5ddd9f4d1daf5682dba.png",
     "static/media/logo-HTML.png": "/Portfolio/static/media/logo-HTML.6a61c73e320a2ce67bf4.png",
     "static/media/logo-javascript.png": "/Portfolio/static/media/logo-javascript.999ad6c9df83a36e4475.png",
     "static/media/foolish_fish.png": "/Portfolio/static/media/foolish_fish.2bd674b93f3db9b3d858.png",
@@ -41,12 +42,12 @@
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Portfolio/index.html",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.3c22cbdd.css.map": "/Portfolio/static/css/main.3c22cbdd.css.map",
-    "main.df343265.js.map": "/Portfolio/static/js/main.df343265.js.map",
+    "main.70e90db2.css.map": "/Portfolio/static/css/main.70e90db2.css.map",
+    "main.53137cf6.js.map": "/Portfolio/static/js/main.53137cf6.js.map",
     "787.2dcca737.chunk.js.map": "/Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c22cbdd.css",
-    "static/js/main.df343265.js"
+    "static/css/main.70e90db2.css",
+    "static/js/main.53137cf6.js"
   ]
 }
