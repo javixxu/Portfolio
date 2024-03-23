@@ -385,6 +385,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
+.project a {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  background: linear-gradient(90.21deg,#ffffffc5  -30.91%, #000000fa 111.58%);
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+.project a:hover{
+  color: #363535;
+  font-style: italic;
+  background: linear-gradient(90.21deg,#ffffffc5  -30.91%, #36aa6a 111.58%);
+}
+
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
@@ -438,6 +456,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+#colorWinner{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  color: #baffdf;
+}
 /************ Projects Css ************/
 .contact {
   background:#151515; /*linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);*/
