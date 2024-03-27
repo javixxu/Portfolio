@@ -77,20 +77,21 @@ export const Skills = () =>{
         { name: 'Premier', img: premiere },
         { name: 'Audition', img: audition },
         { name: 'Ableton', img: ableton },
-        { name: 'React', img: react },
-        { name: 'CSS', img: html },
+        
     ];
 
     const main_skills = [
         { name: 'Unity', img: unity },
         { name: 'C++', img: c1 },
         { name: 'Unreal', img: unreal },
+        { name: 'C#', img: c2 },
         { name: 'AWS', img: aws },
         { name: 'JavaScript', img: javascript },
         { name: 'Lua', img: lua },
         { name: 'HTML', img: html },
-        { name: 'Defold', img: defold },
-        { name: 'C#', img: c2 },
+        { name: 'CSS', img: html },
+        { name: 'React', img: react },
+        { name: 'Defold', img: defold }, 
     ];
 
     return (
@@ -122,9 +123,9 @@ export const Skills = () =>{
                         </div>
                        
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Below, I delve into the kaleidoscope of skills that make up my professional palette, 
                         <br />
-                            Lorem Ipsum has been the industry's standard dummy text.
+                        I divide my skills into two distinct categories: technical and a bit more creative.
                         </p>
                             
                         {!showAllSkills && (
