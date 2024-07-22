@@ -52,11 +52,13 @@ export const Banner = () =>{
                         <span className="tagline">Wellcome to my Portfolio</span>
                         <h1>{`Hi I'm Javier `}</h1>
                         <h2><span className="wrap">{text}</span>&nbsp;</h2>
-                        <p>Hi, I'm Javier Comas, a fourth year student in the Game Development and Design degree at UCM. My main focus within the industry is in programming,
-                             but I also have a strong interest and passion for Game Design and level design.
-                             In addition to my programming focus, I have conducted several academic projects that demonstrate my ability to apply 
-                             theories and concepts in a practical way. My experience includes creating innovative game mechanics, 
-                             optimising code performance and collaborating effectively in multidisciplinary teams.</p>
+                        <p> Hi, I'm Javier Comas, a graduate of the Game Development and Design degree from UCM.
+                            My main focus within the industry is programming, but I also have a strong interest and passion 
+                            for game design and level design. In addition to my programming expertise, I have completed several academic 
+                            projects that demonstrate my ability to apply theories and concepts in a practical way. My experience includes 
+                            creating innovative game mechanics, optimizing code performance, and collaborating effectively in multidisciplinary
+                            teams.
+                        </p>
                         <button onClick={() =>{window.location.href = '#connect';}}>Let's connect<ArrowRightCircle size={25} /> </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

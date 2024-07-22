@@ -5,10 +5,18 @@ import phonkdrifter from "../assets/img/projects/phonk_drifter.png";
 import monkeyDelivery from "../assets/img/projects/monkeyDelivery.png";
 import proceduralWorlds from "../assets/img/projects/procedural-worlds.png";
 import teoriadelcaos from "../assets/img/projects/teoriadelcaos.png";
+import officeSmash from "../assets/img/projects/officeSmash.png";
 /*import colorSharp2 from "../assets/img/color-sharp2.png";*/
 
 export const Projects = () =>{
     const projects =[
+        {
+            title: "Office Smash",
+            Winner: "Winner of the Telefonica 2024 Jam",
+            description: "Employees will set up a volleyball championship in the middle of the office TO DEATH, with no rules.",
+            imgUrl: officeSmash,
+            link: "https://sara-i.itch.io/office-smash",
+        },
         {
             title: "Foolish Fish",
             Winner: "Winner of the Foddiam Jam [Speed Jam]",
@@ -44,12 +52,6 @@ export const Projects = () =>{
             imgUrl:proceduralWorlds,
             link: "https://github.com/javixxu/Procedural-Worlds",
         },
-       
-        //{
-        //    title: "Melvin Cosmic Scape",
-        //    description: "It is a puzzle game in which the player will play with Melvin, the protagonist who is a small alien. The player must solve puzzles so that he can escape from the laboratory where he has been locked up and return to his intergalactic world.",
-        //    imgUrl:foolishfish,
-        //},
     ]
 
     return( 
